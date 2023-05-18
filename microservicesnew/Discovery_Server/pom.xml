@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>Microservices_New</groupId>
+		<artifactId>microservicesnew</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>Microservices_New</groupId>
+	<artifactId>Discovery_Server</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Discovery_Server</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- <spring-cloud.version>2022.0.1</spring-cloud.version> -->
+
+	</properties>
+
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+
+		</dependency>
+		
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-sleuth
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
+			<version>3.0.4</version>
+		</dependency>
+		https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+			<version>3.0.4</version>
+		</dependency>
+		
+		https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-loadbalancer
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-loadbalancer</artifactId>
+			<version>3.0.4</version>
+		</dependency> -->
+
+
+	</dependencies>
+
+
+</project>

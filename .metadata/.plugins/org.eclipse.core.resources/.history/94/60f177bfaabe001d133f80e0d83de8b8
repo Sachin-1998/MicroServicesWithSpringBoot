@@ -1,0 +1,18 @@
+package com.order.services;
+
+import java.util.UUID;
+
+import com.order.dto.OrderRequest;
+import com.order.entities.Order;
+
+public class OrderServiceImpl implements IOrderMgmtService{
+
+	@Override
+	public void placeOrder(OrderRequest orderRequest) {
+		
+		Order order=new Order();
+		order.setOrderNumbers(UUID.randomUUID().toString());
+		
+	}
+
+}
